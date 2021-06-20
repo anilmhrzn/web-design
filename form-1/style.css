@@ -55,32 +55,32 @@ td {
 td {
   text-align: center;
 }
-th{
-    background-color: cadetblue;
+th {
+  background-color: cadetblue;
 }
-.submit_button{
+.submit_button {
   margin: 20px;
   text-align: center;
 }
-input[type="submit"]{
+input[type="submit"] {
   background-color: rgb(73, 177, 73);
   padding: 5px;
   width: 100%;
   /* border: none; */
   border-radius: 12px;
 }
-input[type="submit"]:hover{
+input[type="submit"]:hover {
   background-color: rgb(44, 173, 44);
   cursor: pointer;
 }
-textarea{
+textarea {
   padding: 5px;
   width: 100%;
 }
-hr{
+hr {
   margin: 10px;
 }
-.center{
-padding: 10px;
-margin-top: 40px;
+.center {
+  padding: 10px;
+  margin-top: 40px;
 }
