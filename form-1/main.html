@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Satisfaction Survey</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="">
+      <header>
+        <h1>Employee Satisfaction Survey</h1>
+        <hr />
+      </header>
+      <div class="form_container">
+        <div class="box">
+          <label for="first_name">Name</label>
+          <br />
+          <ul>
+            <li>
+              <input
+                type="text"
+                name="first_name"
+                id="first_name"
+                placeholder="Enter your First name here"
+                required
+              />
+            </li>
+            <li>
+              <input
+                type="text"
+                name="last_name"
+                id="last_name"
+                placeholder="Enter your Last name here"
+                required
+              />
+            </li>
+          </ul>
+        </div >
+        <div class="box">
+
+          <label for="date" id="dateee">Date</label><br /><input
+            type="date"
+            name="date"
+            id="date"
+          />
+        </div>
+        <fieldset class="center">
+          
+            <p>How would you describe your overall level of job satisfaction?</p>
+          
+          <p>
+            <input type="radio" name="satisfaction" id="very_satisfied" /><label
+              for="very_satisfied"
+              > Very Satisfied</label
+            >
+            <br />
+            <input
+              type="radio"
+              name="satisfaction"
+              id="somewaht_satisfied"
+            /><label for="somewaht_satisfied"> Somewaht Satisfied</label> <br />
+            <input type="radio" name="satisfaction" id="neutral" /><label
+              for="neutral"
+              > Neutral</label
+            >
+            <br />
+            <input
+              type="radio"
+              name="satisfaction"
+              id="somewhat_dissatisfied"
+            /><label for="somewhat_dissatisfied"> Somewhat Dissatisfied</label>
+          </p>
+
+        </fieldset>
+        <div class="box">
+          <p>How would you rate the following?</p>
+          </div>
+        <table>
+          <tr>
+            <th id="empty"></th>
+            <th>Very Poor</th>
+            <th>Poor</th>
+            <th>Average</th>
+            <th>Good</th>
+            <th>Excellent</th>
+          </tr>
+          <!-- for salary rating -->
+          <tr>
+            <th>Salary</th>
+            <td><input type="radio" name="salary" id="salary_very_poor" /></td>
+            <td><input type="radio" name="salary" id="salary_poor" /></td>
+            <td><input type="radio" name="salary" id="salary_average" /></td>
+            <td><input type="radio" name="salary" id="salary_good" /></td>
+            <td><input type="radio" name="salary" id="salary_excellent" /></td>
+          </tr>
+          <!-- for overall benefits rating -->
+          <tr>
+            <th>Overall benefits</th>
+            <td>
+              <input
+                type="radio"
+                name="overall_benefits"
+                id="overall_benefits_very_poor"
+              />
+            </td>
+            <td>
+              <input
+                type="radio"
+                name="overall_benefits"
+                id="overall_benefits_poor"
+              />
+            </td>
+            <td>
+              <input
+                type="radio"
+                name="overall_benefits"
+                id="overall_benefits_average"
+              />
+            </td>
+            <td>
+              <input
+                type="radio"
+                name="overall_benefits"
+                id="overall_benefits_good"
+              />
+            </td>
+            <td>
+              <input
+                type="radio"
+                name="overall_benefits"
+                id="overall_benefits_excellent"
+              />
+            </td>
+          </tr>
+          <!-- for health health benefits rating -->
+          <tr>
+            <th>Health Benefits</th>
+            <td>
+              <input
+                type="radio"
+                name="health_benefits"
+                id="health_benefits_very_poor"
+              />
+            </td>
+            <td>
+              <input
+                type="radio"
+                name="health_benefits"
+                id="health_benefits_poor"
+              />
+            </td>
+            <td>
+              <input
+                type="radio"
+                name="health_benefits"
+                id="health_benefits_average"
+              />
+            </td>
+            <td>
+              <input
+                type="radio"
+                name="health_benefits"
+                id="health_benefits_good"
+              />
+            </td>
+            <td>
+              <input
+                type="radio"
+                name="health_benefits"
+                id="health_benefits_excellent"
+              />
+            </td>
+          </tr>
+          <!-- for individual management rating -->
+          <tr>
+            <th>Individual Management</th>
+            <td>
+              <input
+                type="radio"
+                name="individual_management"
+                id="individual_management_very_poor"
+              />
+            </td>
+            <td>
+              <input
+                type="radio"
+                name="individual_management"
+                id="individual_management_poor"
+              />
+            </td>
+            <td>
+              <input
+                type="radio"
+                name="individual_management"
+                id="individual_management_average"
+              />
+            </td>
+            <td>
+              <input
+                type="radio"
+                name="individual_management"
+                id="individual_management_good"
+              />
+            </td>
+            <td>
+              <input
+                type="radio"
+                name="individual_management"
+                id="individual_management_excellent"
+              />
+            </td>
+          </tr>
+          <!-- for traning oppurtunities rating -->
+          <tr>
+            <th>Traning Oppurtunities</th>
+            <td>
+              <input
+                type="radio"
+                name="traning_oppurtunities"
+                id="traning_oppurtunities_very_poor"
+              />
+            </td>
+            <td>
+              <input
+                type="radio"
+                name="traning_oppurtunities"
+                id="traning_oppurtunities_poor"
+              />
+            </td>
+            <td>
+              <input
+                type="radio"
+                name="traning_oppurtunities"
+                id="traning_oppurtunities_average"
+              />
+            </td>
+            <td>
+              <input
+                type="radio"
+                name="traning_oppurtunities"
+                id="traning_oppurtunities_good"
+              />
+            </td>
+            <td>
+              <input
+                type="radio"
+                name="traning_oppurtunities"
+                id="traning_oppurtunities_excellent"
+              />
+            </td>
+          </tr>
+        </table>
+        <fieldset class="center">
+            <p>Do you feel valued at work?</p>
+          <input type="radio" name="valued" id="yes" /><label for="yes">Yes</label
+          ><br />
+          <input type="radio" name="valued" id="no" /><label for="no">No</label>
+        </fieldset>
+        <div class="box">
+          <p>If no, Please Explain</p>
+        </div>
+        <textarea
+          name="not_valued_at_work"
+          id="not_valued_at_work"
+          cols="30"
+          rows="10"
+          placeholder="Type here..."
+        ></textarea>
+        <fieldset class="center">
+
+          <p>Does your job cause you stress or anxitey?</p>
+        
+        <input type="radio" name="valued" id="anxitey_yes" /><label
+          for="anxiety_yes"
+          >Yes</label
+        ><br />
+        <input type="radio" name="valued" id="anxiety_no" /><label
+          for="anxiety_no"
+          >No</label
+        >
+        </fieldset>
+        <div class="box">
+          <p>If no, Please Explain</p>
+        </div>
+        <textarea
+          name="anxiety"
+          id="anxiety"
+          cols="30"
+          rows="10"
+          placeholder="Type here..."
+        ></textarea>
+        <div class="box">
+          <p>Please Provide Any Addditional Feedback</p>
+        </div>
+        <textarea
+          name="feedback"
+          id="feedback"
+          cols="30"
+          rows="10"
+          placeholder="Type here..."
+        ></textarea>
+        <hr />
+        <div class="submit_button">
+          <input type="submit" value="Submit" />
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
