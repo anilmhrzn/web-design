@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 ;
+}
+body{
+    background-color: grey;
+    font-family: 'Abel', sans-serif;
+}
+.main_container{
+    background-color: rgb(226, 226, 226);
+    margin: 5vh 5vw;
+    padding: 5%;
+    padding: 5%;
+    border-radius: 0% 5%;
+}
+#image{
+    height: 35vh;
+    border-radius: 0% 40%;
+}
+article{
+    display: flex;
+    justify-content: center;
+}
+.image_discription{
+    margin-top: 2vh;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Kirang Haerang', cursive;
+}
+.container{
+    font-size: 1.5rem;
+    margin-top: 4vh;
+    padding: 2vh;
+    text-align: left;
+}
+.quote_box{
+    display: flex;
+    margin: 10vh auto;
+    width: 40vw;
+    background-color: grey;
+    border-radius: 0 5vw;
+    padding: 3vh;   
+    transition: all 0.5s ease-in-out;
+}
+.quote_box:hover{
+    transform: scale(1.5);
+}
+footer{
+    font-size: 1.5rem ;
+}
